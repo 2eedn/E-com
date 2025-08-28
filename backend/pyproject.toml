@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "simple-shop-api"
+version = "0.1.0"
+dependencies = [
+  "fastapi>=0.112",
+  "uvicorn[standard]",
+  "pydantic>=2",
+  "SQLAlchemy>=2.0",
+  "aiomysql>=0.2.0",
+  "alembic>=1.13",
+  "python-dotenv>=1.0",
+  "passlib[bcrypt]",
+  "pyjwt>=2.8",
+  "email-validator>=2.1"
+]
