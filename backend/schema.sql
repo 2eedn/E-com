@@ -1,4 +1,4 @@
-CREATE DATABASE IF NOT EXISTS simple_shop CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+simple_shopCREATE DATABASE IF NOT EXISTS simple_shop CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE simple_shop;
 
 CREATE TABLE IF NOT EXISTS users (
